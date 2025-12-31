@@ -4,7 +4,7 @@
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url">接口</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url_Description">配置 Gemini API 服务地址&#x0a;接口API地址不填写Path内容则自动填充 /v1beta/openai/chat/completions&#x0a;如Gemini接口地址为 https://generativelanguage.googleapis.com/v1beta/openai/chat/completions 其中 Path 为 /v1beta/openai/chat/completions</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url_Description">配置 Gemini API 服务地址&#x0a;接口API地址不填写Path内容则自动填充 /v1beta/openai/chat/completions&#x0a;如Gemini接口地址为 https://generativelanguage.googleapis.com/v1beta/openai/chat/completions 其中 Path 为 /v1beta/openai/chat/completions 如需使用第三方平台 Path 为 /v1/chat/completions</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey">密钥</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Placeholder">请输入密钥</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Description">输入您的 Gemini API 密钥</sys:String>

@@ -4,7 +4,7 @@
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url">Url</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url_Description">Configure the Gemini API service address.&#x0a;If the Path is not filled in, it will be automatically populated with /v1beta/openai/chat/completions.&#x0a;For example, for the Gemini API address https://generativelanguage.googleapis.com/v1beta/openai/chat/completions, the Path is /v1beta/openai/chat/completions.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url_Description">Configure the Gemini API service address.&#x0a;If the Path is not filled in, it will be automatically populated with /v1beta/openai/chat/completions.&#x0a;For example, for the Gemini API address https://generativelanguage.googleapis.com/v1beta/openai/chat/completions, the Path is /v1beta/openai/chat/completions. If using a third-party platform, the path is /v1/chat/completions.</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey">ApiKey</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Placeholder">Please enter your apiKey</sys:String>
     <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Description">Enter your Gemini API key</sys:String>
