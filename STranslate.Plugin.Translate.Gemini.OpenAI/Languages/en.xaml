@@ -3,18 +3,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Url">Url</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Url_Description">Configure the Gemini.OpenAI API service address.&#x0a;If the Path is not filled in, it will be automatically populated with /v1/chat/completions.&#x0a;For example, for the Gemini.OpenAI API address https://generativelanguage.googleapis.com/v1/chat/completions, the Path is /v1/chat/completions.</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_ApiKey">ApiKey</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_ApiKey_Placeholder">Please enter your apiKey</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_ApiKey_Description">Enter your Gemini.OpenAI API key</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Model">Select a model</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Prompt_Header">Prompt Configuration</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Prompt_Description">Select or edit the prompt template for translation</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Prompt_Placeholder">Select a prompt template</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_EditPrompt_ToolTip">Edit Prompt</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_EditPrompt_Content">Edit</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Temperature">Temperature Control</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Translate_Gemini.OpenAI_Temperature_Description">Controls the randomness of the model's output</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url">Url</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Url_Description">Configure the Gemini API service address.&#x0a;If the Path is not filled in, it will be automatically populated with /v1beta/openai/chat/completions.&#x0a;For example, for the Gemini API address https://generativelanguage.googleapis.com/v1beta/openai/chat/completions, the Path is /v1beta/openai/chat/completions.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey">ApiKey</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Placeholder">Please enter your apiKey</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_ApiKey_Description">Enter your Gemini API key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Model">Select a model</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Prompt_Header">Prompt Configuration</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Prompt_Description">Select or edit the prompt template for translation</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Prompt_Placeholder">Select a prompt template</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_EditPrompt_ToolTip">Edit Prompt</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_EditPrompt_Content">Edit</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Temperature">Temperature Control</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Gemini_Temperature_Description">Controls the randomness of the model's output</sys:String>
 
 </ResourceDictionary>

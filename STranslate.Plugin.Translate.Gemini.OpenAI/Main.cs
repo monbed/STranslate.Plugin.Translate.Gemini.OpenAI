@@ -1,10 +1,10 @@
-using STranslate.Plugin.Translate.Gemini.OpenAI.View;
-using STranslate.Plugin.Translate.Gemini.OpenAI.ViewModel;
+using STranslate.Plugin.Translate.Gemini.View;
+using STranslate.Plugin.Translate.Gemini.ViewModel;
 using System.Text;
 using System.Text.Json.Nodes;
 using System.Windows.Controls;
 
-namespace STranslate.Plugin.Translate.Gemini.OpenAI;
+namespace STranslate.Plugin.Translate.Gemini;
 
 public class Main : LlmTranslatePluginBase
 {
@@ -128,7 +128,7 @@ public class Main : LlmTranslatePluginBase
         UriBuilder uriBuilder = new(Settings.Url);
         // 如果路径不是有效的API路径结尾，使用默认路径
         if (uriBuilder.Path == "/")
-            uriBuilder.Path = "/v1/chat/completions";
+            uriBuilder.Path = "/v1beta/openai/chat/completions";
 
         // 选择模型
         var model = Settings.Model.Trim();

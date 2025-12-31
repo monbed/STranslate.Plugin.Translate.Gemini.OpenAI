@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
 
-namespace STranslate.Plugin.Translate.Gemini.OpenAI.ViewModel;
+namespace STranslate.Plugin.Translate.Gemini.ViewModel;
 
 public partial class SettingsViewModel : ObservableObject, IDisposable
 {
@@ -121,7 +121,7 @@ public partial class SettingsViewModel : ObservableObject, IDisposable
             UriBuilder uriBuilder = new(_settings.Url);
             // 如果路径不是有效的API路径结尾，使用默认路径
             if (uriBuilder.Path == "/")
-                uriBuilder.Path = "/v1/chat/completions";
+                uriBuilder.Path = "/v1beta/openai/chat/completions";
 
             // 选择模型
             var model = _settings.Model.Trim();

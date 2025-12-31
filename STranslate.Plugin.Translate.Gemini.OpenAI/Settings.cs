@@ -1,4 +1,4 @@
-namespace STranslate.Plugin.Translate.Gemini.OpenAI;
+namespace STranslate.Plugin.Translate.Gemini;
 
 public class Settings
 {

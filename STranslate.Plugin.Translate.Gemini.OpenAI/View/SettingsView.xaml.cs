@@ -1,4 +1,4 @@
-namespace STranslate.Plugin.Translate.Gemini.OpenAI.View;
+namespace STranslate.Plugin.Translate.Gemini.View;
 
 public partial class SettingsView
 {
