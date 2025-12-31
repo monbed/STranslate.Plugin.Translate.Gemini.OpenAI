@@ -1,0 +1,10 @@
+﻿{
+  "PluginID": "e3f7a2b9c4d64f1ea9b8c2d1f0a4b673",
+  "Name": "Gemini(OpenAI Compatible)",
+  "Description": "Official Gemini(OpenAI Compatible) plugin for STranslate",
+  "Author": "monbed",
+  "Version": "1.0.0",
+  "Website": "https://github.com/monbed/STranslate.Plugin.Translate.Gemini.OpenAI",
+  "ExecuteFileName": "STranslate.Plugin.Translate.Gemini.OpenAI.dll",
+  "IconPath": "icon.png"
+}
